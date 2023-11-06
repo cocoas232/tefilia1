@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-image: url(img/Снимок\ экрана\ 2023-11-06\ 181803.png);
+    backdrop-filter: blur(5px);
+    background-repeat: repeat;
+    margin-bottom: -30px;
+}
+
+
+.header {
+    justify-items: center;
+    display: grid;
+    padding-bottom: 300px;
+    color: palevioletred;
+    
+}
+
+.button {
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    padding: 24px 67px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+     cursor: pointer;
+     color:white;
+     border-radius: 15px;
+     font-size: 48px;
+}
+
+.button:hover{
+    background-color: rgb(228, 87, 134);
+}
+
+.text{
+    text-shadow: 1px 0 1px #000, 
+        0 1px 1px #000, 
+        -1px 0 1px #000, 
+        0 -1px 1px #000;
+    text-align: center;
+    
+}
+
+.background{
+    margin-top: 10px;
+}
+
+.promo_button {
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    padding: 14px 2dvh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+     cursor: pointer;
+     color:white;
+     border-radius: 15px;
+     font-size: 16px;
+}
+
+.promo_button:hover{
+    background-color: rgb(228, 87, 134);
+}
+.promo{
+    margin-top: 300px;
+    display: flex;
+    color:palevioletred ;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+    font-size: 24px;
+    align-items: center;
+}
+
+.promik{
+    display: none;
+}
+
+
+@media (max-width:480px) {
+    .background{
+        width: 450px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width:350px) {
+    .background{
+        width: 320px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+
+
